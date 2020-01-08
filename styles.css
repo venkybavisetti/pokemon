@@ -5,6 +5,7 @@ body {
 
 .pokemonCardSize:hover .pokemonInner {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .frontHeader {
