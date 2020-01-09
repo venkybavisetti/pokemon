@@ -4,17 +4,16 @@
     <link rel="stylesheet" href="./styles.css" />
     <script>
       const search = function(){
-        const searchText = document.getElementById('searchtext').value;
+        const searchText = document.getElementById('searchtext').value.toLowerCase();
         const galary = Array.from(document.getElementsByClassName('pokemonCardSize'));
         galary.forEach(e=>{
           const name = e.children[0].children[0].children[0].innerText;
           const textToSearch = new RegExp(searchText);
-          if(!textToSearch.test(name)){
+          if(!textToSearch.test(name.toLowerCase())){
             e.style.display = 'none';
+            return;
           }
-          if(searchText == ''){
             e.style.display = 'block';
-          }
         })
 
       }
@@ -24,10 +23,10 @@
     <h1 style="text-align: center;margin: 50px;">POKEMON GALLERY</h1>
     <center>
       <input
-        type="text"
+        type="search"
         id="searchtext"
-        style="width: 600px;height: 30px;margin-bottom: 30px;"
-        placeholder="searchForPokemon"
+        style="width: 600px;margin-bottom: 30px;"
+        placeholder="search for pokemon"
         onkeyup="search()"
       />
     </center>
