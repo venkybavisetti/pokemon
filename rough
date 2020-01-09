@@ -1,0 +1,54 @@
+      <div class="pokemonCardSize">
+        <div class="pokemonInner">
+          <div class="pokemonFront">
+            <h3 class="frontHeader">Bulbasaur</h3>
+            <img
+              src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+              alt="Bulbasaur"
+              height="250"
+            />
+            <div class="powerTypes">
+              <div class="type">
+                <div class="Grass"></div>
+                <span>Grass</span>
+              </div>
+              <div class="type">
+                <div class="Poison"></div>
+                <span>Poison</span>
+              </div>
+            </div>
+          </div>
+          <div class="pokemonBack">
+            <h3 class="frontHeader">Bulbasaur</h3>
+            <img
+              src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+              alt="Bulbasaur"
+              height="150"
+            />
+            <table border="1px" class="tableDimension">
+              <tr>
+                <th class="thProperties">id</th>
+                <td class="tdProperties">1</td>
+              </tr>
+              <tr>
+                <th class="thProperties">height</th>
+                <td class="tdProperties">0.71 m</td>
+              </tr>
+              <tr>
+                <th class="thProperties">weight</th>
+                <td class="tdProperties">6.9 kg</td>
+              </tr>
+              <tr>
+                <th class="thProperties">avg_spawns</th>
+                <td class="tdProperties">69</td>
+              </tr>
+              <tr>
+                <th class="thProperties">weaknesses</th>
+                <td style="font-size: small;">
+                  Fire,Ice,Flying,Psychic
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
