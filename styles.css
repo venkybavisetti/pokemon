@@ -24,12 +24,48 @@ body {
 .Water,
 .Flying,
 .Bug,
+.Electric,
+.Ice,
+.Rock,
+.Dragon,
+.Psychic,
+.Fighting,
+.Ground,
 .Normal {
   height: 15px;
   width: 15px;
   border-radius: 1000px;
   margin-right: 2px;
 }
+
+.Fighting {
+  background-image: radial-gradient(white, yellow, red);
+}
+
+.Ground {
+  background-image: radial-gradient(white, brown);
+}
+
+.Psychic {
+  background-image: radial-gradient(yellow, red);
+}
+
+.Dragon {
+  background-image: radial-gradient(white, red);
+}
+
+.Rock {
+  background-color: brown;
+}
+
+.Electric {
+  background-image: radial-gradient(white, blue);
+}
+
+.Ice {
+  background-color: skyblue;
+}
+
 .Normal {
   background-color: grey;
 }
